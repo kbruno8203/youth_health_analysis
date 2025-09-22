@@ -1,0 +1,151 @@
+original_variable_name,shortened_variable_name,description,category
+I enjoy listening to music.,Music,I enjoy listening to music.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Music Preferences
+I prefer.,Slow songs or fast songs,I prefer.: Slow paced music 1-2-3-4-5 Fast paced music (integer),Music Preferences
+"Dance, Disco, Funk",Dance,"Dance, Disco, Funk: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer)",Music Preferences
+Folk music,Folk,Folk music: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+Country,Country,Country: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+Classical,Classical music,Classical: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+Musicals,Musical,Musicals: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+Pop,Pop,Pop: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+Rock,Rock,Rock: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+"Metal, Hard rock",Metal or Hardrock,"Metal, Hard rock: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer)",Music Preferences
+Punk,Punk,Punk: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+"Hip hop, Rap","Hiphop, Rap","Hip hop, Rap: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer)",Music Preferences
+"Reggae, Ska","Reggae, Ska","Reggae, Ska: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer)",Music Preferences
+"Swing, Jazz","Swing, Jazz","Swing, Jazz: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer)",Music Preferences
+Rock n Roll,Rock n roll,Rock n Roll: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+Alternative music,Alternative,Alternative music: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+Latin,Latino,Latin: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+"Techno, Trance","Techno, Trance","Techno, Trance: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer)",Music Preferences
+Opera,Opera,Opera: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Music Preferences
+I really enjoy watching movies.,Movies,I really enjoy watching movies.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Movie Preferences
+Horror movies,Horror,Horror movies: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Thriller movies,Thriller,Thriller movies: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Comedies,Comedy,Comedies: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Romantic movies,Romantic,Romantic movies: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Sci-fi movies,Sci-fi,Sci-fi movies: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+War movies,War,War movies: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Tales,Fantasy/Fairy tales,Tales: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Cartoons,Animated,Cartoons: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Documentaries,Documentary,Documentaries: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Western movies,Western,Western movies: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+Action movies,Action,Action movies: Don't enjoy at all 1-2-3-4-5 Enjoy very much (integer),Movie Preferences
+History,History,History: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Psychology,Psychology,Psychology: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Politics,Politics,Politics: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Mathematics,Mathematics,Mathematics: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Physics,Physics,Physics: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Internet,Internet,Internet: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+"PC Software, Hardware",PC,"PC Software, Hardware: Not interested 1-2-3-4-5 Very interested (integer)",Hobbies & Interests
+"Economy, Management",Economy Management,"Economy, Management: Not interested 1-2-3-4-5 Very interested (integer)",Hobbies & Interests
+Biology,Biology,Biology: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Chemistry,Chemistry,Chemistry: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Poetry reading,Reading,Poetry reading: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Geography,Geography,Geography: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Foreign languages,Foreign languages,Foreign languages: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Medicine,Medicine,Medicine: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Law,Law,Law: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Cars,Cars,Cars: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Art,Art exhibitions,Art: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Religion,Religion,Religion: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Outdoor activities,"Countryside, outdoors",Outdoor activities: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Dancing,Dancing,Dancing: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Playing musical instruments,Musical instruments,Playing musical instruments: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Poetry writing,Writing,Poetry writing: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Sport and leisure activities,Passive sport,Sport and leisure activities: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Sport at competitive level,Active sport,Sport at competitive level: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Gardening,Gardening,Gardening: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Celebrity lifestyle,Celebrities,Celebrity lifestyle: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Shopping,Shopping,Shopping: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Science and technology,Science and technology,Science and technology: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Theatre,Theatre,Theatre: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Socializing,Fun with friends,Socializing: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Adrenaline sports,Adrenaline sports,Adrenaline sports: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Pets,Pets,Pets: Not interested 1-2-3-4-5 Very interested (integer),Hobbies & Interests
+Flying,Flying,Flying: Not afraid at all 1-2-3-4-5 Very afraid of (integer),Phobias
+"Thunder, lightning",Storm,"Thunder, lightning: Not afraid at all 1-2-3-4-5 Very afraid of (integer)",Phobias
+Darkness,Darkness,Darkness: Not afraid at all 1-2-3-4-5 Very afraid of (integer),Phobias
+Heights,Heights,Heights: Not afraid at all 1-2-3-4-5 Very afraid of (integer),Phobias
+Spiders,Spiders,Spiders: Not afraid at all 1-2-3-4-5 Very afraid of (integer),Phobias
+Snakes,Snakes,Snakes: Not afraid at all 1-2-3-4-5 Very afraid of (integer),Phobias
+"Rats, mice",Rats,"Rats, mice: Not afraid at all 1-2-3-4-5 Very afraid of (integer)",Phobias
+Ageing,Ageing,Ageing: Not afraid at all 1-2-3-4-5 Very afraid of (integer),Phobias
+Dangerous dogs,Dangerous dogs,Dangerous dogs: Not afraid at all 1-2-3-4-5 Very afraid of (integer),Phobias
+Public speaking,Fear of public speaking,Public speaking: Not afraid at all 1-2-3-4-5 Very afraid of (integer),Phobias
+Smoking habits,Smoking,Smoking habits: Never smoked - Tried smoking - Former smoker - Current smoker (categorical),Health Habits
+Drinking,Alcohol,Drinking: Never - Social drinker - Drink a lot (categorical),Health Habits
+I live a very healthy lifestyle.,Healthy eating,I live a very healthy lifestyle.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Health Habits
+I take notice of what goes on around me.,Daily events,I take notice of what goes on around me.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I try to do tasks as soon as possible and not leave them until last minute.,Prioritising workload,I try to do tasks as soon as possible and not leave them until last minute.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always make a list so I don't forget anything.,Writing notes,I always make a list so I don't forget anything.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I often study or work even in my spare time.,Workaholism,I often study or work even in my spare time.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I look at things from all different angles before I go ahead.,Thinking ahead,I look at things from all different angles before I go ahead.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I believe that bad people will suffer one day and good people will be rewarded.,Final judgement,I believe that bad people will suffer one day and good people will be rewarded.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I am reliable at work and always complete all tasks given to me.,Reliability,I am reliable at work and always complete all tasks given to me.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always keep my promises.,Keeping promises,I always keep my promises.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I can fall for someone very quickly and then completely lose interest.,Loss of interest,I can fall for someone very quickly and then completely lose interest.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I would rather have lots of friends than lots of money.,Friends versus money,I would rather have lots of friends than lots of money.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always try to be the funniest one.,Funniness,I always try to be the funniest one.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I can be two faced sometimes.,Fake,I can be two faced sometimes.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I damaged things in the past when angry.,Criminal damage,I damaged things in the past when angry.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I take my time to make decisions.,Decision making,I take my time to make decisions.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always try to vote in elections.,Elections,I always try to vote in elections.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I often think about and regret the decisions I make.,Self-criticism,I often think about and regret the decisions I make.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I can tell if people listen to me or not when I talk to them.,Judgment calls,I can tell if people listen to me or not when I talk to them.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I am a hypochondriac.,Hypochondria,I am a hypochondriac.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I am emphatetic person.,Empathy,I am emphatetic person.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I eat because I have to. I don't enjoy food and eat as fast as I can.,Eating to survive,I eat because I have to. I don't enjoy food and eat as fast as I can.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I try to give as much as I can to other people at Christmas.,Giving,I try to give as much as I can to other people at Christmas.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I don't like seeing animals suffering.,Compassion to animals,I don't like seeing animals suffering.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I look after things I have borrowed from others.,Borrowed stuff,I look after things I have borrowed from others.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I feel lonely in life.,Loneliness,I feel lonely in life.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I used to cheat at school.,Cheating in school,I used to cheat at school.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I worry about my health.,Health,I worry about my health.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I wish I could change the past because of the things I have done.,Changing the past,I wish I could change the past because of the things I have done.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I believe in God.,God,I believe in God.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always have good dreams.,Dreams,I always have good dreams.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always give to charity.,Charity,I always give to charity.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I have lots of friends.,Number of friends,I have lots of friends.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+Timekeeping.,Punctuality,Timekeeping.: I am often early. - I am always on time. - I am often running late. (categorical),Personality Traits & Opinions
+Do you lie to others?,Lying,Do you lie to others?: Never. - Only to avoid hurting someone. - Sometimes. - Everytime it suits me. (categorical),Personality Traits & Opinions
+I am very patient.,Waiting,I am very patient.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I can quickly adapt to a new environment.,New environment,I can quickly adapt to a new environment.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+My moods change quickly.,Mood swings,My moods change quickly.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I am well mannered and I look after my appearance.,Appearence and gestures,I am well mannered and I look after my appearance.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I enjoy meeting new people.,Socializing,I enjoy meeting new people.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always let other people know about my achievements.,Achievements,I always let other people know about my achievements.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I think carefully before answering any important letters.,Responding to a serious letter,I think carefully before answering any important letters.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I enjoy childrens' company.,Children,I enjoy childrens' company.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I am not afraid to give my opinion if I feel strongly about something.,Assertiveness,I am not afraid to give my opinion if I feel strongly about something.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I can get angry very easily.,Getting angry,I can get angry very easily.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always make sure I connect with the right people.,Knowing the right people,I always make sure I connect with the right people.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I have to be well prepared before public speaking.,Public speaking,I have to be well prepared before public speaking.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I will find a fault in myself if people don't like me.,Unpopularity,I will find a fault in myself if people don't like me.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I cry when I feel down or things don't go the right way.,Life struggles,I cry when I feel down or things don't go the right way.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I am 100% happy with my life.,Happiness in life,I am 100% happy with my life.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I am always full of life and energy.,Energy levels,I am always full of life and energy.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+"I prefer big dangerous dogs to smaller, calmer dogs.",Small - big dogs,"I prefer big dangerous dogs to smaller, calmer dogs.: Strongly disagree 1-2-3-4-5 Strongly agree (integer)",Personality Traits & Opinions
+I believe all my personality traits are positive.,Personality,I believe all my personality traits are positive.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+If I find something the doesn't belong to me I will hand it in.,Finding lost valuables,If I find something the doesn't belong to me I will hand it in.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I find it very difficult to get up in the morning.,Getting up,I find it very difficult to get up in the morning.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I have many different hobbies and interests.,Interests or hobbies,I have many different hobbies and interests.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I always listen to my parents' advice.,Parents' advice,I always listen to my parents' advice.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+I enjoy taking part in surveys.,Questionnaires or polls,I enjoy taking part in surveys.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Personality Traits & Opinions
+How much time do you spend online?,Internet usage,How much time do you spend online?: No time at all - Less than an hour a day - Few hours a day - Most of the day (categorical),Personality Traits & Opinions
+I save all the money I can.,Finances,I save all the money I can.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Spending Habits
+I enjoy going to large shopping centres.,Shopping centres,I enjoy going to large shopping centres.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Spending Habits
+I prefer branded clothing to non branded.,Branded clothing,I prefer branded clothing to non branded.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Spending Habits
+I spend a lot of money on  partying and socializing.,Entertainment spending,I spend a lot of money on partying and socializing.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Spending Habits
+I spend a lot of money on my appearance.,Spending on looks,I spend a lot of money on my appearance.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Spending Habits
+I spend a lot of money on gadgets.,Spending on gadgets,I spend a lot of money on gadgets.: Strongly disagree 1-2-3-4-5 Strongly agree (integer),Spending Habits
+"I will hapilly pay more money for good, quality or healthy food.",Spending on healthy eating,"I will hapilly pay more money for good, quality or healthy food.: Strongly disagree 1-2-3-4-5 Strongly agree (integer)",Spending Habits
+Age,Age,Age: (integer),Demographics
+Height,Height,Height: (integer),Demographics
+Weight,Weight,Weight: (integer),Demographics
+How many siblings do you have?,Number of siblings,How many siblings do you have?: (integer),Demographics
+Gender,Gender,Gender: Female - Male (categorical),Demographics
+I am,Left - right handed,I am: Left handed - Right handed (categorical),Demographics
+Highest education achieved,Education,Highest education achieved: Currently a Primary school pupil - Primary school - Secondary school - College/Bachelor degree (categorical),Demographics
+I am the only child,Only child,I am the only child: No - Yes (categorical),Demographics
+I spent most of my childhood in a,Village - town,I spent most of my childhood in a: City - village (categorical),Demographics
+I lived most of my childhood in a,House - block of flats,I lived most of my childhood in a: house/bungalow - block of flats (categorical),Demographics

@@ -1,0 +1,76 @@
+---
+title: "Progress Memo"
+subtitle: |
+  | Final Project 
+  | Data Visualization (STAT 302)
+author: "Kyla Bruno"
+date: today
+
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Data Source
+
+The data source I will use for the final project came from a raw csv file called `resonses.csv` located in the `data/` subdirectory. The data was sourced from a [Kaggle](https://www.kaggle.com/) project titled "Young People Survey: Explore the preferences, interests, habits, opinions, and fears of young people"^[Miroslav, Sabo 2013. *Young People Survey: Explore the preferences, interests, habits, opinions, and fears of young people*. Faculty of Social
+and Economic Sciences: Comenius University Bratislava. Accessed 1 March 2024. https://www.kaggle.com/datasets/miroslavsabo/young-people-survey?resource=download]. The data, easily accessed [here](https://www.kaggle.com/datasets/miroslavsabo/young-people-survey?resource=download), has a Kaggle usability score of 8.53 based on its completeness, credibility, and compatibility. I cleaned the raw data by formatting column names to a standard and converting the 11 character variables to factor variables. The original intention was for these variable to be categorical, but writing a file to csv does not preserve data types so I had to convert them back. This work is shown in the codeblock below ^[Note that output has been set to false for cleanliness and readability of the report, but successful data loading is proven in the next section.]. Both the raw and cleaned version of the data are in the `data/` subdirectory along with a codebook outlining the specifics of variable descriptions. 
+
+The data itself is a collection of survey responses from students, aged 15-30, in a statistics class at [FSEV UK](https://fses.uniba.sk/en/) in 2013. The survey itself was presented both in written form and electronically. All participants have Slovak nationality and the original survey was presented in Slovak language. It was later translated into English. Furthermore, the survey was intended to have its items split amongst 8 groups: music preferences (19 items), movie preferences (12 items), hobbies & interests (32 items), phobias (10 items), health habits (3 items) personality traits & opinions (57 items), spending habits (7 items), and demographics (10 items)^[Descriptions can be found in codebook.csv]. 
+
+```{r}
+#| output: false
+# load packages & data
+library(tidyverse)
+library(here)
+
+responses_raw <- read_csv(here("data/responses.csv"))
+
+# clean data
+responses_clean <- responses_raw |> 
+  janitor::clean_names() |> 
+  mutate_if(is.character, as.factor)
+
+# confirm read in 
+overview <- skimr::skim_without_charts(responses_clean) 
+```
+
+## Basic Data Description
+
+The cleaned version of the data has 1010 observations and 150 variables/columns. 139 of the variables are numeric, while the remaining 11 are non-ordered factor variables. All represent 1 survey question, where the observations are each participant's answer to the question. The factor variables range in number of levels from 2-6, with the majority on the lower end. All of the numeric variables range from 1 ("strongly disagree") to 5 ("strongly agree"). Note that the specifics of the 1-5 integer codings were slightly altered depending on the corresponding survey question, yet all maintain 1 at the lower end and 5 at the higher end of the concept being measured. The variable names have been shortened for convenience^[Translations provided in the codebook and at the original source (see first footnote)]. 
+
+The distribution of missing observations is shown in the plot below. The distribution is largely right skewed, which is good in this context because it indicates that lower missingness numbers are more frequent. From skimming the data, I could see that the lowest complete rate of all the variables is 0.98, meaning they all have at least 98% of their observations filled in with a value not `NA`. As a result, I do not predict any major missingness issues. However, the distribution below called my attention to the outliers at 20, so I investigated further to find that the height and weight variables are the ones with the most missingness. 
+
+```{r}
+#| code-fold: true
+# confirm read in cont.
+overview |> 
+  group_by(n_missing) |> 
+  summarize(count = n()) |> 
+  ggplot(aes(x = n_missing, y = count)) +
+  geom_col(fill = "purple3") +
+  theme_minimal() +
+  labs(title = "Distribution of the Number of Missing Observations in the 'Young People Survey'", 
+       x = "Number Missing", 
+       y = "Frequency") + 
+  theme(plot.title = element_text(face = "bold", family = "Times New Roman", size = 13.65, hjust = 0.5), 
+        axis.title = element_text(family = "Times New Roman", size = 12))
+```
+
+
+## Why This Data
+
+The "Young People Survey" data first caught my attention because of its focus on "young" people, which in this case is defined as people aged 15-30. 
+With every new generation there tends to be criticism and/or cultural judgement from older folks. A data set like this one has the potential to break generational presumptions of what young people are interested in. It is often that age groups are represented as monolithic, and while such descxriptions may be capturing important trends, it can erase the variety within each group. Examining survey data then provides the opportunity to focus on individuals and trends that may be lost by grouping such a large group of people together. For example, 15-30 is a fairly large age range and the rapid progression of the internet, social media, and personal technology makes me wonder if there are notable differences between people on the higher and lower ends of these ranges. 
+
+Furthermore, I find this data to be both interesting and challenging. Not only does the data reflect the interests of people my age, it does so over a range of relevant categories - i.e. music preferences, movie preferences, hobbies & interests, phobias, health habits, and personality traits. As a psychology major, I find the latter three categories to be particularly interesting and relevant to my clinical career goals of applying my data science skills in psychological contexts. I am curious to investigate the associations between phobias and movie preferences, as I hypothesize that certain phobias may result in avoidance behavior towards watching certain films. I am also intrigued by the prospect of examining how health habits and personality traits relate to hobbies and interests. Such findings would have important implications in identifying youth at risk for the development of interpersonal psychopathology. The complexity of the data's overarching categories also creates a structure I have not yet worked with on my own. As of right now, the categories are not reflected in the data set itself, so I may add them for visualization purposes.
+
+
+Lastly, the data set has a large number of complete responses, so I am not worried about it being too small to reflect any meaningful patterns in visualizations. Although survey participants are around my age, they are Slovak, so I am curious as to how interests and opinions may be different from what I would expect as an American. I am currently taking a Slavic linguistics class and think this data will be relevant to my studies in the subject, hopefully enhancing my understanding of Slavic language and culture. The observation of meaningful patterns in a Slovak sample would provide a solid foundation for studying young people of other nationalities. Such diverse information about young people can contribute to a historical understanding of generational differences along with psychological and cultural insights with the potential to help people. 
+
+## Visualization Plan
+
+My current plan for visualizing the data is a presentation with a mix of animated and static graphics. Since there are so many different variables, a static graphic would allow me to more clearly present the results of an exploratory data analysis. If the number of variables proves difficult to display in a readable manner, I may instead build an app that allows users to toggle between different choices in a drop down menu. I would craft all graphics to be relevant to my overarching theme. I will then coherently put visual elements together in a presentation that conveys the nature of the data and what we can learn from it.
+
+I plan to explore the data and create graphics in .R files, save the results, and then present them as figures in a Quarto presentation file. Any apps that I might make will be done using Shiny. I aim to create a story about the phobia of ageing and how that relates to gender, age, health habits, and spending habits. However, I also want to investigate differences in music preference, interests, and habits across the ages. I am going to continue to create visualizations for both because I am curious, but will decide on one to center my final presentation on. 
